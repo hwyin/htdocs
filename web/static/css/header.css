@@ -1,0 +1,1198 @@
+@charset "UTF-8";
+@media (min-width: 767px) {
+    .header_sm {
+        display: none; }
+
+    .w {
+        width: 10.8rem;
+        margin: 0 auto; }
+
+    .header {
+        display: block;
+        height: 0.6rem; }
+
+    .nav {
+        position: relative; }
+
+    .nav ul {
+        position: absolute;
+        top: 0rem;
+        right: 0rem; }
+
+    .nav > a {
+        display: block;
+        width: 0.79rem;
+        height: 0.36rem;
+        background: url("../imgs/logo.png")/*tpa=http://www.hejushuzi.com/static/imgs/logo.png*/ no-repeat 100%;
+        padding-top: 0.26rem; }
+
+    .nav li {
+        float: left;
+        position: relative; }
+
+    .nav li > a {
+        display: block;
+        padding: 0.18rem 0.25rem;
+        font-size: 0.16rem;
+        color: #3a363b; }
+    .nav li > a:hover {
+        color: #f65a65;
+    }
+
+    .nav li:hover {
+        background-color: #f5f5f5; }
+
+    .nav li.now {
+        background-color: #f5f5f5;
+        color: #f65a65;
+    }
+
+    .nav li div {
+        position: absolute;
+        display: none;
+        top: 0.55rem;
+        left: 0;
+        z-index: 99;
+        background-color: #fff;
+        -webkit-box-shadow: 0px 8px 24px #999;
+        -moz-box-shadow: 0px 8px 24px #999;
+        -ms-box-shadow: 0px 8px 24px #999;
+        box-shadow: 0px 8px 24px #999; }
+    .nav li div:before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: -0.1rem;
+        left: 20%;
+        margin-left: -5px;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-bottom: 10px solid #fff;
+    }
+
+    .nav div a {
+        display: block;
+        width: 1.73rem;
+        height: 0.4rem;
+        line-height: 0.4rem;
+        color: #3a363b;
+        text-align: center;
+        font-size: 0.14rem; }
+
+    .nav div a:hover {
+        background-color: #f5f5f5; }
+
+    .nav li:hover div {
+        display: block; }
+
+    /*banner轮播图*/
+    .banner .swiper-slide {
+        width: 100%;
+        height: 5rem;
+    }
+
+    .banner .banner_text {
+        width: 10.8rem;
+        margin: 0 auto;
+        padding-top: 1.2rem;
+    }
+
+    .banner p:first-child {
+        font-size: 0.48rem;
+        margin-bottom: 0.14rem;
+        color: #2e292f; }
+
+    .banner p:nth-child(2) {
+        font-size: 0.36rem;
+        color: #2e292f; }
+
+    .banner p:nth-child(3) {
+        font-size: 0.20rem;
+        color: #6c656e;
+        margin: 0.24rem 0 0.45rem 0;
+        width: 42%;}
+
+    .banner a {
+        display: block;
+        width: 2.2rem;
+        height: 0.4rem;
+        line-height: 0.4rem;
+        background: -moz-linear-gradient(left, #ff596e, #fe7c59);
+        background: -o-linear-gradient(left, #ff596e, #fe7c59);
+        background: -webkit-linear-gradient(left, #ff596e, #fe7c59);
+        background: linear-gradient(left, #ff596e, #fe7c59);
+        border-radius: 0.03rem;
+        text-align: center;
+        font-size: 0.16rem;
+        color: #ffffff; }
+
+    .under_banner_sm {
+        display: none;
+    }
+
+    .under_banner {
+        display: block;
+    }
+
+    .under_banner ul {
+        margin: 0.3rem 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .under_banner li {
+        float: left;
+        padding-left: 0.85rem;
+        padding-right: 0;
+        width: 18%;
+        margin: 0 0.3rem;
+    }
+
+    .under_banner .know_urdc {
+        background: url("../imgs/under_banner_1.png")/*tpa=http://www.hejushuzi.com/static/imgs/under_banner_1.png*/ no-repeat;
+    }
+
+    .under_banner .speed_join {
+        background: url("../imgs/under_banner_2.png")/*tpa=http://www.hejushuzi.com/static/imgs/under_banner_2.png*/ no-repeat;
+    }
+
+    .under_banner .client_prior {
+        background: url("../imgs/under_banner_3.png")/*tpa=http://www.hejushuzi.com/static/imgs/under_banner_3.png*/ no-repeat;
+    }
+
+    .under_banner p {
+        font-size: 0.18rem;
+        color: #3f454c;
+        margin-bottom: 0.12rem;
+    }
+
+    .under_banner span {
+        display: block;
+        font-size: 0.14rem;
+        color: #7a8d9d;
+    }
+
+    /*解决方案模块*/
+    .solution_sm {
+        display: none;
+    }
+
+    .solution {
+        display: block;
+        text-align: center;
+        background-color: #f8f8f8;
+    }
+
+    .solution .title {
+        font-size: 0.22rem;
+        color: #39444c;
+        font-weight: bold;
+        padding: 0.44rem 0 0.12rem;
+    }
+
+    .solution .describe {
+        font-size: 0.16rem;
+        color: #5c656f;
+        padding-bottom: 0.4rem;
+    }
+
+    .solution_content {
+        padding-bottom: 0.7rem;
+    }
+
+    .solution_content li {
+        float: left;
+        height: 3.4rem;
+        position: relative;
+    }
+
+    .solution_content li > a > img {
+        width: 2.7rem;
+        height: 3.4rem;
+    }
+
+    .solution_content .mask {
+        position: absolute;
+        top: 0.8rem;
+        left: 0;
+        padding: 0.2rem 0.34rem 0px;
+        box-sizing: border-box;
+        width: 2.7rem;
+        text-align: center;
+        height: 2.6rem;
+        transition: all .4s ease 0s;
+    }
+
+    .solution_content .mask:hover {
+        background: -moz-linear-gradient(top, #e14663, #f25e53);
+        background: -o-linear-gradient(top, #e14663, #f25e53);
+        background: -webkit-linear-gradient(top, #e14663, #f25e53);
+        background: linear-gradient(top, #e14663, #f25e53);
+        opacity: 0.8;
+        top: 0;
+        height: 3.4rem; }
+
+    .solution_content .mask .name {
+        font-size: 0.22rem;
+        font-weight: bold;
+        color: #ffffff;
+        margin: 0.25rem 0 0.1rem 0;
+    }
+
+    .solution_content .mask:hover .name {
+        margin: 0 0 0.1rem 0;
+    }
+
+    .solution_content .mask .solution_line {
+        width: 0.2rem;
+        height: 2px;
+        background-color: #ffffff;
+        display: block;
+        margin-top: 0.15rem;
+        margin-left: 0.91rem;
+    }
+
+    .solution_content .mask .intro {
+        font-size: 0.14rem;
+        color: #ffffff;
+        display: none;
+    }
+
+    .solution_content .mask .a_btn {
+        display: none;
+        color: #ffffff;
+        font-size: 0.14rem;
+        width: 1.2rem;
+        height: 0.34rem;
+        line-height: 0.34rem;
+        border: 1px solid #ffffff;
+        margin-top: 0.3rem;
+        margin-left: 0.45rem;
+    }
+
+    .solution_content .mask:hover .intro {
+        display: block;
+    }
+
+    .solution_content .mask:hover .a_btn {
+        display: block;
+    }
+
+    .solution_content .mask:hover .solution_line {
+        display: none;
+    }
+
+    /*产品模块*/
+    .product_sm {
+        display: none;
+    }
+
+    .product {
+        display: block;
+        text-align: center;
+        margin-bottom: 0.4rem;
+        width: 10.8rem;
+        margin: 0 auto;
+    }
+
+    .product .title {
+        font-size: 0.22rem;
+        color: #39444c;
+        font-weight: bold;
+        padding: 0.44rem 0 0.12rem;
+    }
+
+    .product .describe {
+        font-size: 0.16rem;
+        color: #5c656f;
+        padding-bottom: 0.4rem;
+    }
+
+    .product #product_box {
+        position: relative;
+        width: 9.98rem;
+        height: 3.4rem;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .product #product_box .container {
+        width: 8.95rem;
+        margin-left: 0.65rem;
+        overflow: hidden;
+    }
+
+    .product ul {
+        position: relative;
+        left: 0;
+        width: 24rem;
+        height: 3.4rem;
+    }
+
+    .product li {
+        float: left;
+        width: 2.68rem;
+        height: 3.38rem;
+        border: 1px solid #cdd5db;
+        margin-right: 0.3rem;
+    }
+
+    .product li:hover {
+        border: 1px solid #f65a65;
+        transition: all .5s ease 0s; }
+
+    .product .head > p {
+        font-size: 0.18rem;
+        color: #39444c;
+        padding: 0.15rem 0;
+    }
+
+    .product li:hover .head > p {
+        color: #ffffff;
+        transition: all .5s ease 0s;
+    }
+
+    .product .head {
+        background-color: #ececee;
+        padding: 0.2rem 0 0 0;
+    }
+
+    .product li:hover .head {
+        background-color: #f65a65;
+        transition: all .5s ease 0s; }
+
+    .product li > p {
+        font-size: 0.16rem;
+        color: #6c7883;
+        margin: 0.25rem;
+    }
+
+    .product li:hover > p {
+        font-size: 0.16rem;
+        color: #212e3d;
+        transition: all .5s ease 0s;
+    }
+
+    .product li a {
+        opacity: 0;
+        font-size: 0.16rem;
+        margin-left: 0.72rem;
+    }
+
+    .product li:hover a {
+        display: block;
+        font-size: 0.16rem;
+        opacity: 1;
+        width: 1.2rem;
+        height: 0.34rem;
+        line-height: 0.34rem;
+        color: #f65a65;
+        border: 1px solid #f65a65;
+        transition: all .5s ease 0s;
+        margin-left: 0.72rem; }
+
+    .product .head > div {
+        height: 0.55rem;
+    }
+
+    .product .product_img1 {
+        background: url("../imgs/product_1.png")/*tpa=http://www.hejushuzi.com/static/imgs/product_1.png*/ 106.5px 0 no-repeat;
+    }
+
+    .product li:hover .product_img1 {
+        background: url("../imgs/product_1_h.png")/*tpa=http://www.hejushuzi.com/static/imgs/product_1_h.png*/ 106.5px 0 no-repeat;
+        transition: all .5s ease 0s;
+    }
+
+    .product .product_img2 {
+        background: url("../imgs/product_2.png")/*tpa=http://www.hejushuzi.com/static/imgs/product_2.png*/ 106.5px 0 no-repeat;
+    }
+
+    .product li:hover .product_img2 {
+        background: url("../imgs/product_2_h.png")/*tpa=http://www.hejushuzi.com/static/imgs/product_2_h.png*/ 106.5px 0 no-repeat;
+        transition: all .5s ease 0s;
+    }
+
+    .product .product_img3 {
+        background: url("../imgs/product_3.png")/*tpa=http://www.hejushuzi.com/static/imgs/product_3.png*/ 106.5px 0 no-repeat;
+    }
+
+    .product li:hover .product_img3 {
+        background: url("../imgs/product_3_h.png")/*tpa=http://www.hejushuzi.com/static/imgs/product_3_h.png*/ 106.5px 0 no-repeat;
+        transition: all .5s ease 0s;
+    }
+
+    .product .product_img4 {
+        background: url("../imgs/product_4.png")/*tpa=http://www.hejushuzi.com/static/imgs/product_4.png*/ 106.5px 0 no-repeat;
+    }
+
+    .product li:hover .product_img4 {
+        background: url("../imgs/product_4_h.png")/*tpa=http://www.hejushuzi.com/static/imgs/product_4_h.png*/ 106.5px 0 no-repeat;
+        transition: all .5s ease 0s;
+    }
+
+    .product .product_img5 {
+        background: url("../imgs/product_5.png")/*tpa=http://www.hejushuzi.com/static/imgs/product_5.png*/ 106.5px 0 no-repeat;
+    }
+
+    .product li:hover .product_img5 {
+        background: url("../imgs/product_5_h.png")/*tpa=http://www.hejushuzi.com/static/imgs/product_5_h.png*/ 106.5px 0 no-repeat;
+        transition: all .5s ease 0s;
+    }
+
+    .product .product_img6 {
+        background: url("../imgs/product_6.png")/*tpa=http://www.hejushuzi.com/static/imgs/product_6.png*/ 106.5px 0 no-repeat;
+    }
+
+    .product li:hover .product_img6 {
+        background: url("../imgs/product_6_h.png")/*tpa=http://www.hejushuzi.com/static/imgs/product_6_h.png*/ 106.5px 0 no-repeat;
+        transition: all .5s ease 0s;
+    }
+
+    .product #left {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        display: inline-block;
+        width: 0.48rem;
+        height: 0.48rem;
+        background: url("../imgs/prev.png")/*tpa=http://www.hejushuzi.com/static/imgs/prev.png*/ no-repeat;
+        z-index: 2;
+    }
+
+    .product #right {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        display: inline-block;
+        width: 0.48rem;
+        height: 0.48rem;
+        background: url("../imgs/next.png")/*tpa=http://www.hejushuzi.com/static/imgs/next.png*/ no-repeat;
+        z-index: 2;
+    }
+
+    /*云交易中心模块*/
+    .deal_center_sm {
+        display: none;
+    }
+
+    .deal_center {
+        display: block;
+        margin-top: 0.5rem;
+        text-align: center;
+        background-color: #f8f8f8;
+        padding-bottom: 0.3rem;
+    }
+
+    .deal_center ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+
+    .deal_center .title {
+        font-size: 0.22rem;
+        color: #39444c;
+        font-weight: bold;
+        padding: 0.44rem 0 0.12rem;
+    }
+
+    .deal_center .describe {
+        font-size: 0.16rem;
+        color: #5c656f;
+        padding-bottom: 0.4rem;
+        max-width: 10.8rem;
+        margin: 0 auto;
+    }
+
+    .deal_center li {
+        float: left;
+        border: 1px solid #cdd5db;
+        margin: 0 0.12rem;
+    }
+
+    .deal_center .center_name {
+        color: #333;
+        font-size: 0.18rem;
+        padding: 0.18rem 0.25rem;
+    }
+
+    .deal_center .center_img {
+        width: 2.36rem;
+        height: 2.2rem;
+        overflow: hidden;
+    }
+
+    .deal_center a:hover img {
+        transition: all .5s ease 0s;
+        -ms-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    /*合作伙伴商标*/
+    .partner_sm {
+        display: none;
+    }
+
+    .partner {
+        display: block;
+        text-align: center;
+        padding-bottom: 0.3rem;
+    }
+
+    .partner .title {
+        font-size: 0.22rem;
+        color: #39444c;
+        font-weight: bold;
+        padding: 0.44rem 0 0.12rem;
+    }
+
+    .partner .describe {
+        font-size: 0.16rem;
+        color: #5c656f;
+        padding-bottom: 0.4rem;
+    }
+
+    .partner li {
+        float: left;
+        height: 1rem;
+        width: 2rem;
+    }
+
+    .partner li.dell {
+        background: url("../imgs/dell.png")/*tpa=http://www.hejushuzi.com/static/imgs/dell.png*/ no-repeat;
+    }
+
+    .partner li.dell:hover {
+        background: url("../imgs/dell_hover.png")/*tpa=http://www.hejushuzi.com/static/imgs/dell_hover.png*/ no-repeat;
+        transition: all .4s ease 0s;
+    }
+
+    .partner li.dianxin {
+        background: url("../imgs/dianxin.png")/*tpa=http://www.hejushuzi.com/static/imgs/dianxin.png*/ no-repeat;
+    }
+
+    .partner li.dianxin:hover {
+        background: url("../imgs/dianxin_hover.png")/*tpa=http://www.hejushuzi.com/static/imgs/dianxin_hover.png*/ no-repeat;
+        transition: all .4s ease 0s;
+    }
+
+    .partner li.huawei {
+        background: url("../imgs/huawei.png")/*tpa=http://www.hejushuzi.com/static/imgs/huawei.png*/ no-repeat;
+    }
+
+    .partner li.huawei:hover {
+        background: url("../imgs/huawei_hover.png")/*tpa=http://www.hejushuzi.com/static/imgs/huawei_hover.png*/ no-repeat;
+        transition: all .4s ease 0s;
+    }
+
+    .partner li.liantong {
+        background: url("../imgs/liantong.png")/*tpa=http://www.hejushuzi.com/static/imgs/liantong.png*/ no-repeat;
+    }
+
+    .partner li.liantong:hover {
+        background: url("../imgs/liantong_hover.png")/*tpa=http://www.hejushuzi.com/static/imgs/liantong_hover.png*/ no-repeat;
+        transition: all .4s ease 0s;
+    }
+
+    .partner li.yidong {
+        background: url("../imgs/yidong.png")/*tpa=http://www.hejushuzi.com/static/imgs/yidong.png*/ no-repeat;
+    }
+
+    .partner li.yidong:hover {
+        background: url("../imgs/yidong_hover.png")/*tpa=http://www.hejushuzi.com/static/imgs/yidong_hover.png*/ no-repeat;
+        transition: all .4s ease 0s;
+    }
+
+    .partner li.huipu {
+        background: url("../imgs/huipu.png")/*tpa=http://www.hejushuzi.com/static/imgs/huipu.png*/ no-repeat;
+    }
+
+    .partner li.huipu:hover {
+        background: url("../imgs/huipu_hover.png")/*tpa=http://www.hejushuzi.com/static/imgs/huipu_hover.png*/ no-repeat;
+        transition: all .4s ease 0s;
+    }
+
+    .partner li.sony {
+        background: url("../imgs/sony.png")/*tpa=http://www.hejushuzi.com/static/imgs/sony.png*/ no-repeat;
+    }
+
+    .partner li.sony:hover {
+        background: url("../imgs/sony_hover.png")/*tpa=http://www.hejushuzi.com/static/imgs/sony_hover.png*/ no-repeat;
+        transition: all .4s ease 0s;
+    }
+
+    .partner li.guodian {
+        background: url("../imgs/guodian.png")/*tpa=http://www.hejushuzi.com/static/imgs/guodian.png*/ no-repeat;
+    }
+
+    .partner li.guodian:hover {
+        background: url("../imgs/guodian_hover.png")/*tpa=http://www.hejushuzi.com/static/imgs/guodian_hover.png*/ no-repeat;
+        transition: all .4s ease 0s;
+    }
+
+    .partner li.coop {
+        background: url("../imgs/coop.png")/*tpa=http://www.hejushuzi.com/static/imgs/coop.png*/ no-repeat;
+    }
+
+    .partner li.coop:hover {
+        background: url("../imgs/coop_hover.png")/*tpa=http://www.hejushuzi.com/static/imgs/coop_hover.png*/ no-repeat;
+        transition: all .4s ease 0s;
+    }
+
+    .partner li.zhongjian {
+        background: url("../imgs/zhongjian.png")/*tpa=http://www.hejushuzi.com/static/imgs/zhongjian.png*/ no-repeat;
+    }
+
+    .partner li.zhongjian:hover {
+        background: url("../imgs/zhongjian_hover.png")/*tpa=http://www.hejushuzi.com/static/imgs/zhongjian_hover.png*/ no-repeat;
+        transition: all .4s ease 0s;
+    }
+
+    /*底部*/
+    .footer_sm {
+        display: none;
+    }
+
+    .footer {
+        display: block;
+        background-color: #373d41;
+    }
+
+    .footer .top_contact {
+        padding: 0.4rem 0;
+        border-bottom: 1px solid #666;
+    }
+
+    .footer .top_contact .phone {
+        color: #f65a65;
+    }
+
+    .footer .top_contact .phone>p:first-child {
+        font-size: 0.24rem;
+    }
+
+    .footer .top_contact .phone>p:last-child {
+        font-size: 0.14rem;
+    }
+
+    .footer .top_contact span {
+        color: #afbcc4;
+        padding: 0 0.2rem;
+        font-size: 0.16rem;
+        display: block;
+        float: left;
+        border-right: 1px solid #afbcc4;
+    }
+
+    .footer_nav {
+        padding: 0.48rem 0 0.3rem 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer_nav dl {
+        float: left;
+        margin: 0 0.56rem;
+    }
+
+    .footer_nav dt {
+        font-size: 0.2rem;
+        color: #ffffff;
+        margin-bottom: 0.06rem;
+    }
+
+    .footer_nav dd a {
+        display: block;
+        font-size: 0.16rem;
+        color: #afbcc4;
+        margin-top: 0.12rem;
+    }
+
+    .footer_nav dd a:hover {
+        color: #ffffff;
+    }
+
+    .footer_nav dd a.no:hover {
+        color: #afbcc4;
+        cursor: default;
+    }
+
+    .footer .icp {
+        text-align: center;
+        height: 0.4rem;
+        font-size: 0.14rem;
+        color: #80888d;
+        background-color: #31373b;
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        background-color: #eff1f4;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .header_sm {
+        display: block;
+        position: relative;
+        height: 0.88rem;
+        background: #fff;
+    }
+
+    .header_sm > a {
+        float: left;
+        display: block;
+        width: 1.08rem;
+        height: 0.63rem;
+        background: url("../imgs/logo_sm.png")/*tpa=http://www.hejushuzi.com/static/imgs/logo_sm.png*/ no-repeat;
+        background-size: 1.08rem 0.63rem;
+        margin-top: 0.1rem;
+        margin-left: 0.3rem;
+    }
+
+    .nav_menu > a {
+        float: right;
+        display: block;
+        width: 0.44rem;
+        height: 0.44rem;
+        margin-top: 0.2rem;
+        margin-right: 0.3rem;
+    }
+
+    .nav_menu > a.down {
+        background: url("../imgs/nav_sm.png")/*tpa=http://www.hejushuzi.com/static/imgs/nav_sm.png*/ no-repeat;
+        background-size: 0.44rem 0.44rem;
+    }
+
+    .nav_menu > a.up {
+        background: url("../imgs/nav_sm_click.png")/*tpa=http://www.hejushuzi.com/static/imgs/nav_sm_click.png*/ no-repeat;
+        background-size: 0.44rem 0.44rem;
+    }
+
+    .nav_menu ul {
+        display: none;
+        position: absolute;
+        top: 0.88rem;
+        left: 0rem;
+        z-index: 99;
+        width: 100%;
+        background-color: #fff;
+    }
+
+    .nav_menu ul li {
+        margin: 0 0.3rem;
+        border-top: 1px solid #dcdcdc;
+    }
+
+    .nav_menu li > a {
+        display: block;
+        height: 0.9rem;
+        line-height: 0.9rem;
+        font-size: 0.32rem;
+        color: #333;
+    }
+
+    .nav_menu li > a.close {
+        background: url("../imgs/nav_sm_down.png")/*tpa=http://www.hejushuzi.com/static/imgs/nav_sm_down.png*/ right 0.2rem no-repeat;
+        background-size: 0.44rem 0.44rem;
+    }
+
+    .nav_menu li > a.open {
+        background: url("../imgs/nav_sm_up.png")/*tpa=http://www.hejushuzi.com/static/imgs/nav_sm_up.png*/ right 0.2rem no-repeat;
+        background-size: 0.44rem 0.44rem;
+    }
+
+    .nav_menu li div {
+        display: none;
+    }
+
+    .nav_menu li div a {
+        display: block;
+        height: 0.9rem;
+        line-height: 0.9rem;
+        font-size: 0.28rem;
+        color: #666;
+        margin: 0 0.3rem;
+        border-top: 1px solid #dcdcdc;
+    }
+
+    /*banner轮播图*/
+    .banner .swiper-slide {
+        width: 100%;
+        height: 3.4rem;
+    }
+
+    .banner .banner_text {
+        padding-top: 0.6rem;
+    }
+
+    .banner p:first-child {
+        font-size: 0.3rem;
+        color: #2e292f;
+        margin: 0 0.3rem 0.14rem;
+    }
+
+    .banner p:nth-child(2) {
+        font-size: 0.26rem;
+        color: #2e292f;
+        margin: 0 0.3rem;
+    }
+    .banner p:nth-child(3) {
+        font-size: 0.22rem;
+        color: #6c656e;
+        margin: 0.15rem 0.3rem 0.45rem;
+    }
+
+    .banner a {
+        display: none;
+    }
+
+    .under_banner_sm {
+        display: block;
+    }
+
+    .under_banner {
+        display: none;
+    }
+
+    .under_banner_sm ul {
+        margin-bottom: 0.4rem;
+        padding: 0.3rem 0 0.4rem;
+        display: flex;
+        justify-content: center;
+        background-color: #fff;
+    }
+
+    .under_banner_sm li {
+        float: left;
+        width: 1.8rem;
+        text-align: center;
+        padding: 0 0.2rem;
+    }
+
+    .under_banner_sm li img {
+        width: 0.8rem;
+        height: 0.8rem;
+    }
+
+    .under_banner_sm p.title {
+        font-size: 0.28rem;
+        color: #3f454c;
+        margin-bottom: 0.12rem;
+    }
+
+    .under_banner_sm p.describe {
+        font-size: 0.22rem;
+        color: #7a8d9d;
+        text-align: left;
+    }
+
+    /*解决方案模块*/
+    .solution {
+        display: none;
+    }
+
+    .solution_sm {
+        display: block;
+        background-color: #fff;
+        padding: 0.4rem 0.2rem;
+    }
+
+    .solution_sm .title {
+        font-size: 0.36rem;
+        margin-top: 0.4rem;
+        margin-bottom: 0.12rem;
+        text-align: center;
+    }
+
+    .solution_sm .describe {
+        font-size: 0.24rem;
+        color: #666;
+        text-align: center;
+        margin-bottom: 0.3rem;
+    }
+
+    .solution_sm li {
+        position: relative;
+        margin-bottom: 0.2rem;
+        height: 2.4rem;
+        background-size: 6.9rem 2.4rem;
+    }
+
+    .solution_sm li a > img {
+        position: absolute;
+        width: 1.2rem;
+        height: 1.2rem;
+        left: 0.2rem;
+        top: 50%;
+        margin-top: -0.6rem;
+    }
+
+    .solution_sm li div {
+        float: right;
+        width: 80%;
+    }
+
+    .solution_sm li a > div {
+        margin-right: 0.5rem;
+        margin-top: 8%;
+    }
+
+    .solution_sm .name {
+        font-size: 0.32rem;
+        color: #fff;
+        margin-bottom: 0.2rem;
+    }
+
+    .solution_sm .intro {
+        font-size: 0.24rem;
+        color: #cac2c2;
+    }
+
+    /*产品模块*/
+    .product {
+        display: none;
+    }
+
+    .product_sm {
+        display: block;
+        text-align: center;
+        background-color: #fff;
+        padding: 0.4rem 0.2rem;
+        margin-top: 0.2rem;
+    }
+
+    .product_sm .title {
+        font-size: 0.36rem;
+        margin-top: 0.4rem;
+        margin-bottom: 0.12rem;
+    }
+
+    .product_sm .describe {
+        font-size: 0.24rem;
+        color: #666;
+        margin-bottom: 0.3rem;
+    }
+
+    .product_sm ul {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .product_sm li {
+        float: left;
+        border: 1px solid #f65a65;
+        width: 3.3rem;
+        height: 4rem;
+        margin: 0 0.1rem 0.3rem;
+    }
+
+    .product_sm li .head {
+        background-color: #f65a65;
+    }
+
+    .product_sm li a > p {
+        font-size: 0.24rem;
+        color: #666;
+        margin: 0.2rem;
+    }
+
+    .product_sm li .head img {
+        width: 0.8rem;
+        height: 0.8rem;
+        display: block;
+        padding-top: 0.2rem;
+        padding-left: 1.25rem;
+    }
+
+    .product_sm li .head p {
+        font-size: 0.3rem;
+        color: #fff;
+        padding: 0.2rem 0 0.3rem;
+    }
+
+    /*云交易中心模块*/
+    .deal_center {
+        display: none;
+    }
+
+    .deal_center_sm {
+        display: block;
+        text-align: center;
+        background-color: #fff;
+        padding: 0.4rem 0.2rem;
+        margin-top: 0.2rem;
+    }
+
+    .deal_center_sm .title {
+        font-size: 0.36rem;
+        margin-top: 0.4rem;
+        margin-bottom: 0.12rem;
+    }
+
+    .deal_center_sm .describe {
+        font-size: 0.24rem;
+        color: #666;
+        margin-bottom: 0.3rem;
+    }
+
+    .deal_center_sm ul {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .deal_center_sm li {
+        margin: 0 0.15rem 0.3rem;
+        float: left;
+        border: 1px solid #cdd5db;
+    }
+
+    .deal_center_sm li .center_img img {
+        width: 3rem;
+        height: 2.6rem;
+    }
+
+    .deal_center_sm li .center_name {
+        font-size: 0.3rem;
+        padding: 0.1rem 0 0.2rem;
+    }
+
+    /*合作伙伴商标*/
+    .partner {
+        display: none;
+    }
+
+    .partner_sm {
+        display: block;
+        text-align: center;
+        background-color: #fff;
+        padding: 0.4rem 0.2rem;
+        margin-top: 0.2rem;
+    }
+
+    .partner_sm .title {
+        font-size: 0.36rem;
+        margin-top: 0.4rem;
+        margin-bottom: 0.12rem;
+    }
+
+    .partner_sm .describe {
+        font-size: 0.24rem;
+        color: #666;
+        margin-bottom: 0.3rem;
+    }
+
+    .partner_sm ul {
+        padding: 0 0.2rem;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .partner_sm li img {
+        float: left;
+        width: 1.3rem;
+        height: 0.6rem;
+    }
+
+    /*底部*/
+    .footer {
+        display: none;
+    }
+
+    .footer_sm {
+        display: block;
+        background-color: #fff;
+        padding: 0.4rem 0.2rem;
+        margin-top: 0.2rem;
+    }
+
+    .footer_sm ul {
+        width: 100%;
+    }
+
+    .footer_sm ul li {
+        margin: 0 0.3rem;
+        border-bottom: 1px solid #dcdcdc;
+    }
+
+    .footer_sm li > a {
+        display: block;
+        height: 0.9rem;
+        line-height: 0.9rem;
+        font-size: 0.32rem;
+    }
+
+    .footer_sm li > a.close {
+        background: url("../imgs/footer_sm_down.png")/*tpa=http://www.hejushuzi.com/static/imgs/footer_sm_down.png*/ right 0.2rem no-repeat;
+        background-size: 0.44rem 0.44rem;
+    }
+
+    .footer_sm li > a.open {
+        background: url("../imgs/footer_sm_up.png")/*tpa=http://www.hejushuzi.com/static/imgs/footer_sm_up.png*/ right 0.2rem no-repeat;
+        background-size: 0.44rem 0.44rem;
+    }
+
+    .footer_sm li div {
+        display: none;
+    }
+
+    .footer_sm li div a {
+        display: block;
+        height: 0.9rem;
+        line-height: 0.9rem;
+        font-size: 0.28rem;
+        margin: 0 0.3rem;
+        border-bottom: 1px solid #dcdcdc;
+    }
+
+    .footer_sm li div a:last-child {
+        border-bottom: none;
+    }
+
+    .footer_sm .phone {
+        background: url("../imgs/footer_sm_phone.png")/*tpa=http://www.hejushuzi.com/static/imgs/footer_sm_phone.png*/ no-repeat;
+        background-size: 0.7rem 0.7rem;
+        padding-left: 0.8rem;
+        margin: 0.4rem 0 0.4rem 0.4rem;
+    }
+
+    .footer_sm .phone > p:first-child {
+        font-size: 0.28rem;
+    }
+
+    .footer_sm .phone > p:last-child {
+        font-size: 0.2rem;
+    }
+
+    .footer_sm span {
+        color: #666;
+        padding: 0 0.2rem;
+        font-size: 0.2rem;
+        display: block;
+        float: left;
+        border-right: 1px solid #ccc;
+    }
+
+    .footer_sm .icp {
+        font-size: 0.2rem;
+        color: #999;
+    }
+
+    .footer_sm .icp > p:first-child {
+        margin-bottom: 0.12rem;
+    }
+}
+
+/*# sourceMappingURL=header.css.map */
